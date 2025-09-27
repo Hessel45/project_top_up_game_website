@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Up Payment</title>
+    <link rel="stylesheet" href="ASSETS/STYLES/PAYMENT.CSS">
+</head>
+<body>
+    <div class="container">
+        <h1>Top Up Payment</h1>
+        <form id="paymentForm">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+            
+            <label for="amount">Top Up Amount:</label>
+            <input type="number" id="amount" name="amount" required>
+            
+            
+            <button type="submit">Submit</button>
+            <button type="button" onclick="goToHomepage()">Return to Homepage</button>
+        </form>
+    </div>
+
+    <script src="ASSETS/SCRIPTS/PAYMENT.js"></script>
+</body>
+</html>
