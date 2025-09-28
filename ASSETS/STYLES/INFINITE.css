@@ -159,7 +159,7 @@ header .menu {
 
 .main {
   width: 500px;
-  top: 44%;
+  top: 30%;
   left: 50%;
   position: absolute;
   transform: translate(-50%, -50%);
